@@ -1,0 +1,8 @@
+2-4. 다음 중 기본형이 아닌 것은?
+     a. int
+     b. Byte
+     c. double
+     d. boolean
+
+     : b
+     -> byte는 기본형이 맞지만, Byte는 class
