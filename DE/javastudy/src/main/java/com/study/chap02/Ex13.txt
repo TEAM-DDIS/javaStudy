@@ -1,0 +1,8 @@
+2-13. 다음 중 타입과 기본값이 잘못 연결된 것은?
+
+      a. boolean - false
+      b. char - 'Wu0000'
+      c. float - 0.0    : X -> 0.0f
+      d. int - 0
+      e. long - 0
+      f. String - ""

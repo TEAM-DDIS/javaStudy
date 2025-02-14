@@ -1,0 +1,9 @@
+2-12. 다음 중 main 메서드의 선언부로 알맞은 것은?
+      a. public static void main(String[] args)
+      b. public static void main(String args[])
+      c. public static void main(String[] arv)
+      d. public void static main(String[] args)
+      e. static public void mian(String[] args)
+
+      : a, b, c, e
+      -> d: static 키워드는 반환형 앞에 위치

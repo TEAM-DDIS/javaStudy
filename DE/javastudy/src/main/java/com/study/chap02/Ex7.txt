@@ -1,0 +1,9 @@
+2-7. 다음 중 변수의 이름으로 사용할 수 있는 것은?
+     a. $ystem      : O, $시작 가능
+     b. channel#5   : X, 특수문자 불가능
+     c. 7eleven     : X, 숫자 시작 불가능
+     d. If          : O, if 아님
+     e. 자바         : X, 한글 불가능
+     f. new         : X, 키워드 불가능
+     g. $MAX_NUM    : O, $, _ 가능
+     h. hello@com   : X, 특수문자 불가능

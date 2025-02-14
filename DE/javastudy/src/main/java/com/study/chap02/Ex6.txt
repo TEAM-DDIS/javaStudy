@@ -1,0 +1,6 @@
+2-6. 다음 중 키워드가 아닌 것은?
+     a. if      : O
+     b. True    : X, true가 리터럴 키워드
+     c. NULL    : X, null이 리터럴 키워드
+     d. Class   : X, class가 키워드
+     e. System  : X, 내장 클래스

@@ -1,0 +1,7 @@
+2-11. 다음 중 변수를 잘못 초기화 한 것은?
+
+      a. byte b = 256;          : O, -128~127
+      b. char c = '';           : O, 반드시 1개의 문자 들어가야 함
+      c. char answer = 'no';    : O, 1byte만 들어가야 함
+      d. float f = 3.14;        : O, f를 붙여 명시해야 함
+      e. double d = 1.4e3f;     : X

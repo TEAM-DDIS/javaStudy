@@ -1,0 +1,11 @@
+2-1.기본형 크기
+
+       |  1byte  |  2byte  |  4byte  |  8byte
+논리형  | boolean |         |         |
+문자형  |         |   char  |         |
+정수형  |  byte   |  short  |   int   |  long
+실수형  |         |         |  float  |  double
+
+boolean이 왜 1byte인가?
+: 이론적으로 1bit만 있으면 충분
+  but, CPU는 일반적으로 최소 1byte 단위로 메모리를 할당하기 때문
