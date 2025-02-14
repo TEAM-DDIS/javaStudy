@@ -1,0 +1,15 @@
+ 참조형 변수 와 같은 크기의 기본형 은 모두 고르시오.
+
+a. int
+b. long
+c. short
+d. float
+e. double
+
+int(4byte)
+long(8byte)
+short(2byte)
+float(4byte)
+double(8byte)
+
+a,d

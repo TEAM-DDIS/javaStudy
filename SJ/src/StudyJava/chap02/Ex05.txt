@@ -1,0 +1,12 @@
+다음 중 기본형 이 아닌 것은 (primitive type) ?
+a. int
+b. Byte
+c. double
+d. boolean
+
+int -> 정수형 기본타입
+Byte -> 정수형 있는 애인데 기본타입 아님
+double -> 실수형의 기본타입
+boolean -> 논리형의 기본타입
+
+그러니까 b
