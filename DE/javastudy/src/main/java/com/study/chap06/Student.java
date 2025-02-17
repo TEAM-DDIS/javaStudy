@@ -30,6 +30,10 @@ public class Student {
     // 소수점 둘째자리에서 반올림할 것
     public double getAverage() {
 //        (int) ((5 / 9f * (fahrenheit - 32)) * 100 + 0.5) / 100f;
-        return (int) ((kor + eng + math) / 3.0 * 100 + 0.5) / 100.0;
+        return (int) ((kor + eng + math) / 3.0 * 10 + 0.5) / 10.0;
+    }
+
+    public String info() {
+        return name + ", " + ban + ", " +  no + ", " + kor + ", " + eng + ", " + math + ", " + getTotal() + ", " + getAverage();
     }
 }
