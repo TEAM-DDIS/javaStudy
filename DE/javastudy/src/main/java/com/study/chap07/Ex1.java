@@ -18,7 +18,30 @@ class SutdaDeck {
             cards[i + 10] = new SutdaCard(cardNum, false);
         }
     }
+
+    /* shuffle: 배열 cards에 담긴 카드의 위치를 뒤섞는다. Math.random() 사용 */
+    void shuffle() {
+        for (int i = 0; i < cards.length; i++){
+            int num = (int) Math.random() * cards.length;
+            SutdaCard temp = cards[i];
+            cards[i] = cards[num];
+            cards[num] = temp;
+        }
+
+    }
+
+    /* pick: 배열 cards에서 지정된 위치의 SutdaCard를 반환한다. */
+    SutdaCard pick(int index) {
+        return cards[index];
+    }
+
+    /* pick: 배열 cards에서 임의의 위치의 SutdaCard를 반환한다. Math.random() 사용 */
+    SutdaCard pick() {
+        int num = (int) Math.random() * cards.length;
+        return cards[num];
+    }
 }
+
 
 class SutdaCard {
     int num;
@@ -38,12 +61,32 @@ class SutdaCard {
         return num + (isKwang ? "K" : "");
     }
 }
-public class Ex1 {
+//public class Ex1 {
+//    public static void main(String[] args) {
+//        SutdaDeck deck = new SutdaDeck();
+//
+//        for (int i = 0; i < deck.cards.length; i++) {
+//            System.out.print(deck.cards[i] + ",");
+//        }
+//    }
+//}
+
+/* 7-2. 문제 7-1의 SutaDeck 클래스에 새로운 메서드 추가
+ *      shuffle, pick, pick */
+
+public class Ex1{
     public static void main(String[] args) {
         SutdaDeck deck = new SutdaDeck();
 
+        System.out.println(deck.pick(0));
+        System.out.println(deck.pick());
+        deck.shuffle();
+
         for (int i = 0; i < deck.cards.length; i++) {
-            System.out.print(deck.cards[i] + ",");
+            System.out.print(deck.cards[i] + ", ");
         }
+
+        System.out.println();
+        System.out.println(deck.pick(0));
     }
 }
