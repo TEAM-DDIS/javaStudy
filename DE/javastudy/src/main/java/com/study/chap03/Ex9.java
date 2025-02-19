@@ -1,6 +1,6 @@
 package com.study.chap03;
 
-/* 3-9. 문자형 변수 ch가  영뮨자이거나 숫자일 때만 */
+/* 3-9. 문자형 변수 ch가  영문자이거나 숫자일 때만 */
 public class Ex9 {
     public static void main(String[] args) {
         char ch = 'z';
