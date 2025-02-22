@@ -16,3 +16,7 @@ public class Ex4 {
         System.out.println("평균: " + s.getAverage());
     }
 }
+
+// 이름: 홍길동
+// 총점: 236
+// 평균: 78.7

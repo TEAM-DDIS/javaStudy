@@ -8,3 +8,5 @@ public class Ex5 {
         System.out.println(s.info());
     }
 }
+
+// 홍길동, 1, 1, 100, 60, 76, 236, 78.7

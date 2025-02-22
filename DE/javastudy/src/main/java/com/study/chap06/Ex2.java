@@ -10,3 +10,6 @@ public class Ex2 {
         System.out.println(card2.info());
     }
 }
+
+// 3
+// 1K
