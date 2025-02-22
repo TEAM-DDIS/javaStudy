@@ -1,4 +1,4 @@
-package com.hygge.jungsuk.chap03.Operator;
+package main.java.com.hygge.jungsuk.chap03.Operator;
 
 public class Exercise7 {
     public static void main(String[] args) {
@@ -8,7 +8,7 @@ public class Exercise7 {
             3. Math.round
          */
     int fahrenheit = 100;                       //화씨
-    float celcius = ( (5/9 * (fahrenheit - 32)) );              //섭씨
+    float celcius = ((5/9f * ((float)fahrenheit - 32f)));              //섭씨
     System.out.println("Fahrenheit:"+fahrenheit);
     System.out.println("Celcius:"+celcius);
         System.out.printf("%celcius.3f");

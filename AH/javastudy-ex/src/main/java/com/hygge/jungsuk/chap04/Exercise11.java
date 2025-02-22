@@ -1,4 +1,4 @@
-package com.hygge.jungsuk.chap04;
+package main.java.com.hygge.jungsuk.chap04;
 
 public class Exercise11 {
     public static void main(String[] args) {
@@ -6,10 +6,12 @@ public class Exercise11 {
         int num1 = 1;
         int num2 = 1;
         int num3 = 0; // 세번째 값
-        System.out.print(num1+",3"+num2);
+
+        //피보나치는 보통 재귀함수를 사용함.
+        System.out.print(num1+","+num2);
         for (int i = 0 ; i < 8 ; i++ ) {
             num3 = (num2 + num1);
-            System.out.println("," + num3);
+            System.out.print("," + num3);
              num1 = num2;
              num2 = num3;
         }
