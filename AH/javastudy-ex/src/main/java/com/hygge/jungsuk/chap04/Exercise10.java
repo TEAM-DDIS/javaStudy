@@ -11,6 +11,8 @@ public class Exercise10 {
                 num /= 10;
             }
             System.out.println("sum="+sum);
+
+            // 주석 추가!
         }
 
 }
